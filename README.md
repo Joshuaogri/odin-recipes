@@ -1,3 +1,4 @@
 # odin-recipes
 A recipe page for an hypothetical odin-kitchen
 The main aim of this project is to attempt to make use of the various html tags and tools to design a recipe page. its aim isnt exactly targetted at flamboyance but to sort of demonstrate a basic understanding of html principles. It will be barebones but intends to capture what has been explained. i particularly will like to see how this process helps in sharpening the way i engage with git and github.
+A particular issue experienced involved linking images through the relative file paths which failed to work but was eventually understood and corrected. This stopped the broken image and alt text that appeared on linked html files in the recipe directory.
