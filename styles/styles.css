@@ -1,0 +1,90 @@
+/* styles.css */ 
+html {
+    min-height: 100%;
+    background-image: url("../Images/cookpage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 0px;
+    font-style: italic;
+    color: #454d32;
+    font-size: 20px;
+}
+
+.view {
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 0px;
+    font-style: italic;
+    color: #4d0038;
+    font-size: 26px;
+}
+
+.content {
+    
+    margin-left: 450px;
+    margin-top: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #454d32;
+    line-height: 40px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* Media queries*/
+@media only screen and (max-width: 600px) {
+    .content {
+           
+            margin-left: -18px;
+            margin-top: 50px;
+        }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .content {
+    
+            margin-left: 50px;
+            margin-top: 200px;
+        }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .content {
+    
+            margin-left: 50px;
+            margin-top: 200px;
+        }
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1000px and up) */
+@media only screen and (min-width: 1000px) {
+    .content {
+    
+            margin-left: 380px;
+            margin-top: 100px;
+        }
+}
